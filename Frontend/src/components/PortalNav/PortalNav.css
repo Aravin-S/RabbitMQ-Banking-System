@@ -1,0 +1,38 @@
+body {
+    font-family: 'Montserrat';
+    color: #f1860b;
+}
+
+.portalBar {
+  position: sticky;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+.portalBar a {
+    margin-left: 1.4em;
+    text-transform: none;
+}
+
+a.messageButton, a.notificationButton {
+    display: inline-flex;
+    outline: 1px solid #f1860b;
+    border-radius: 10px;
+    padding: 0.5em;
+}
+
+.customerSupport {
+    font-size: 1em;
+}
+
+.customerSupport strong {
+    margin-left: 0.6em;
+    font-weight: 600;
+}
+
+.welcomeUser {
+    font-size: 1em;
+    font-weight: 600;
+    margin-left: 1.4em;
+}
